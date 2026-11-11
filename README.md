@@ -37,9 +37,11 @@
 - **라이브러리** : raylib 6.2 (https://github.com/raysan5/raylib/releases)
 
 ### 1) raylib 설치
+1.  Visual Studio 프로젝트 설정 NuGet패키지관리클릭
+2. 찾아보기에서 raylib 설치
+또는 
 1. GitHub Releases에서 `raylib-6.2_win64_msvc16.zip` 다운로드
 2. `C:\raylib` 에 압축 해제 → `C:\raylib\include`, `C:\raylib\lib` 구조가 되도록 배치
-
 ### 2) Visual Studio 프로젝트 설정
 1. **빈 프로젝트** 생성 → 소스 파일에 `main.c` 추가
 2. 솔루션 구성을 **x64** 로 변경
